@@ -6,16 +6,26 @@ import './App.css';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
 import Vitamin from './components/Vitamin';
+import data from './data/data.json';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       toggleLogo:  true,
+      cards: [],
     }
     this.toggleLogo = this.toggleLogo.bind(this);
     this.openNav = this.openNav.bind(this);
     this.closeNav = this.closeNav.bind(this);
+  }
+
+  // This function gets called right before the component is mounted
+  // and after it is known that the component is going to mount
+  componentWillMount() {
+    this.setState({
+      cards: data,
+    })
   }
 
   toggleLogo(event) {
@@ -62,8 +72,14 @@ class App extends Component {
             {/* 
             This path will only be called if someone is coming to the '/' path of the website
             since we are using exact path
+            <Route exact path="/" component={Home}/>
+
+            Since we also want to pass in some props to the component being rendered, we use the
+            render property in the way shown below
              */}
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" render={(props) => (
+              <Home cards={this.state.cards} />
+            )} />
 
             {/*
             This path will be called as far as someone uses a path that starts with the vitamin
