@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import logo from './logo.png';
 import './App.css';
+import Error from './components/Error';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
 import ProductDetails from './components/ProductDetails';
@@ -95,6 +96,12 @@ class App extends Component {
                 />
               );
             }} />
+            
+            {/*
+              Any link that points to an unknown URL will lead to the below route's component
+              being rendered
+            */}
+            <Route component={Error} />
           </Switch>
         </div>
       </Router>
