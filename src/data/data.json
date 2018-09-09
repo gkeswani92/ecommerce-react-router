@@ -1,0 +1,74 @@
+[
+  { "id": 0,
+    "animation": "card",
+    "title": "Vitamin Juice",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 25.99
+  },
+  { "id": 1,
+    "animation": "card",
+    "title": "Vitamins pack",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 4.99
+  },
+  { "id": 2,
+    "animation": "card",
+    "title": "T-shirt",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 5.99
+  },
+  { "id": 3,
+    "animation": "card",
+    "title": "Vitamin B",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 10.99
+  },
+  { "id": 4,
+    "animation": "card",
+    "title": "Shirt",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 13.99
+  },
+  { "id": 5,
+    "animation": "card",
+    "title": "Jogging pants",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 6.99
+  },
+   { "id": 6,
+    "animation": "card",
+    "title": "Vitamin Juice",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 16.99
+  },
+  { "id": 7,
+    "animation": "card",
+    "title": "T-shirt",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 17.99
+  },
+  { "id": 8,
+    "animation": "card",
+    "title": "Vitamins pack",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 20.99
+  },
+  { "id": 9,
+    "animation": "card",
+    "title": "Mental booster",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 34.99
+  },
+  { "id": 10,
+    "animation": "card",
+    "title": "Pre-workout supplements",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 5.99
+  },
+  { "id": 11,
+    "animation": "card",
+    "title": "Post-workout supplements",
+    "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
+    "price": 80.99
+  }
+]
